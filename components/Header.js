@@ -26,7 +26,7 @@ function Header() {
                 width={120}
                 onClick={()=> router.push('/')}
                 className="cursor-pointer"/>
-            <form className="flex flex-grow px-6 py-3 ml-10 mr-5 border border-gray-200 rounded-full flex-grow: ;
+            <form className="flex flex-grow px-6 py-3 ml-10 mr-5 border border-gray-200 rounded-full flex-gro
             shadow-lg max-w-3xl items-center">
                 <input ref={searchInputRef} className="flex-grow focus:outline-none" type="text"/>
                 <XIcon className="h-7 text-gray-500 cursor-pointer 
