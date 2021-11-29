@@ -21,9 +21,9 @@ function Header() {
         <header className="sticky top-0 bg-white">
             <div className="flex w-full p-6 items-center">
             <Image
-                src="https://www.reviewpro.com/wp-content/uploads/2019/06/Google-logo.jpg"
-                height={90}
-                width={180}
+                src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+                height={40}
+                width={120}
                 onClick={()=> router.push('/')}
                 className="cursor-pointer"/>
             <form className="flex flex-grow px-6 py-3 ml-10 mr-5 border border-gray-200 rounded-full flex-grow: ;
